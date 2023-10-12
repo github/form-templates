@@ -9,7 +9,7 @@ body:
 - type: checkboxes
   id: repo-settings
   attributes:
-    label: ""
+    label: "Repository Settings"
     options:
       - label: "Set appropriate repository visibility (public or private). [Learn more](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-repository-settings#about-repository-visibility)"
       - label: "Configure branch protection rules. [Learn more](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches)"
@@ -19,7 +19,7 @@ body:
 - type: checkboxes
   id: repo-contents
   attributes:
-    label: ""
+    label: "Repository Contents"
     options:
       - label: "Create an informative README.md. [Learn more](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)"
       - label: "Add a LICENSE.md file. [Learn more](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)"
@@ -37,7 +37,7 @@ body:
 - type: checkboxes
   id: automation-checks
   attributes:
-    label: ""
+    label: "Automation/Checks"
     options:
       - label: "Implement code linting. [Learn more](https://github.com/marketplace/actions/super-linter)"
       - label: "Set up tests / Continuous Integration (CI). [Learn more](https://docs.github.com/en/actions/guides/about-continuous-integration)"
@@ -49,7 +49,7 @@ body:
 - type: checkboxes
   id: security
   attributes:
-    label: ""
+    label: "Security"
     options:
       - label: "Assign appropriate roles/permissions. [Learn more](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-permission-levels-for-an-organization)"
       - label: "Manage secrets securely. [Learn more](https://docs.github.com/en/actions/security-guides/encrypted-secrets)"
@@ -62,7 +62,7 @@ body:
 - type: checkboxes
   id: advanced-options
   attributes:
-    label: ""
+    label: "Advanced Options"
     options:
       - label: "Add Issue Templates. [Learn more](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)"
       - label: "Configure GitHub Codespaces. [Learn more](https://docs.github.com/en/codespaces/setting-up-your-codespace/configuring-codespaces-for-your-project)"
@@ -73,7 +73,7 @@ body:
 - type: checkboxes
   id: next-steps
   attributes:
-    label: ""
+    label: "Next Steps / Externalities"
     options:
       - label: "Commit to being responsive. [Learn more](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/encouraging-helpful-contributions-to-your-project-with-labels)"
       - label: "Use GitHub Projects and Issues for project management. [Learn more](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)"
