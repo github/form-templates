@@ -18,7 +18,7 @@ To use these templates, you can either copy the content and paste it into your o
 4. Create a new file under the `.github/ISSUE_TEMPLATE/` directory (for issue templates) or `.github/PULL_REQUEST_TEMPLATE/` (for pull request templates).
 5. Paste the content into the new file.
 
-### Use as a Template
+### Use this repository as a Template
 
 1. Click on the "Use this template" button on this repository's main page.
 2. Follow the prompts to create a new repository based on this one.
