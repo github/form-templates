@@ -51,9 +51,9 @@ body:
     label: "Automation/Checks"
     description: |-
       Ensure the repository has the necessary automation and checks in place.      
-      [Learn more about code linting](https://github.com/marketplace/actions/super-linter),
+      [Learn more about code linting](https://github.blog/2020-06-18-introducing-github-super-linter-one-linter-to-rule-them-all/),
       [CI](https://docs.github.com/en/actions/guides/about-continuous-integration),
-      and [status checks](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-status-checks)
+      and [status checks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks)
     options:
       - label: "Implement code linting"
       - label: "Set up tests / Continuous Integration (CI)"
@@ -70,7 +70,7 @@ body:
       Ensure the repository has the necessary security measures in place.      
       [Learn more about roles/permissions](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-permission-levels-for-an-organization),
       [managing secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets),
-      [scanners](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/about-dependabot-version-updates),
+      [dependency scanning](https://docs.github.com/en/code-security/dependabot),
       and [security policies](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository)
     options:
       - label: "Assign appropriate roles/permissions"
