@@ -12,7 +12,7 @@ body:
     label: "Repository Settings"
     description: |-
       Ensure the repository settings are correctly configured.      
-      [Learn more about repository settings](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-repository-settings#about-repository-visibility)
+      [Learn more about repository settings](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features)
       and [branch protection rules](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches)
     options:
       - label: "Set appropriate repository visibility (public or private)"
