@@ -4,7 +4,7 @@ This repository contains useful form templates that can be copied and pasted int
 
 ## Current Templates
 
-1. **Collaboration Ready Checklist**: A form template that provides a checklist to ensure your repository is ready for collaboration.
+- **[collaboration_ready_repository.yaml](https://github.com/github/form-templates/blob/main/.github/ISSUE_TEMPLATE/collaboration_ready_repository.yaml)** provides a checklist to ensure your repository is ready for collaboration.
 
 ## Usage
 
