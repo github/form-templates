@@ -11,8 +11,10 @@ body:
   attributes:
     label: "Repository Settings"
     options:
-      - label: "Set appropriate repository visibility (public or private). [Learn more](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-repository-settings#about-repository-visibility)"
-      - label: "Configure branch protection rules. [Learn more](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches)"
+      - label: "Set appropriate repository visibility (public or private)"
+        description: "[Learn more](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-repository-settings#about-repository-visibility)"
+      - label: "Configure branch protection rules"
+        description: "[Learn more](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches)"
 - type: markdown
   attributes:
     value: "## Repository Contents"
@@ -21,11 +23,16 @@ body:
   attributes:
     label: "Repository Contents"
     options:
-      - label: "Create an informative README.md. [Learn more](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)"
-      - label: "Add a LICENSE.md file. [Learn more](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)"
-      - label: "Include CONTRIBUTING.md. [Learn more](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors)"
-      - label: "Set up CODEOWNERS. [Learn more](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)"
-      - label: "Establish a CODE_OF_CONDUCT.md. [Learn more](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project)"
+      - label: "Create an informative README.md"
+        description: "[Learn more](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)"
+      - label: "Add a LICENSE.md file"
+        description: "[Learn more](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)"
+      - label: "Include CONTRIBUTING.md"
+        description: "[Learn more](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors)"
+      - label: "Set up CODEOWNERS"
+        description: "[Learn more](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)"
+      - label: "Establish a CODE_OF_CONDUCT.md"
+        description: "[Learn more](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project)"
 - type: input
   id: license
   attributes:
@@ -39,10 +46,14 @@ body:
   attributes:
     label: "Automation/Checks"
     options:
-      - label: "Implement code linting. [Learn more](https://github.com/marketplace/actions/super-linter)"
-      - label: "Set up tests / Continuous Integration (CI). [Learn more](https://docs.github.com/en/actions/guides/about-continuous-integration)"
-      - label: "Configure status checks. [Learn more](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-status-checks)"
-      - label: "Consider Continuous Deployment (CD). [Learn more](https://docs.github.com/en/actions/guides/about-continuous-deployment)"
+      - label: "Implement code linting"
+        description: "[Learn more](https://github.com/marketplace/actions/super-linter)"
+      - label: "Set up tests / Continuous Integration (CI)"
+        description: "[Learn more](https://docs.github.com/en/actions/guides/about-continuous-integration)"
+      - label: "Configure status checks"
+        description: "[Learn more](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-status-checks)"
+      - label: "Consider Continuous Deployment (CD)"
+        description: "[Learn more](https://docs.github.com/en/actions/guides/about-continuous-deployment)"
 - type: markdown
   attributes:
     value: "## Security"
@@ -51,31 +62,13 @@ body:
   attributes:
     label: "Security"
     options:
-      - label: "Assign appropriate roles/permissions. [Learn more](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-permission-levels-for-an-organization)"
-      - label: "Manage secrets securely. [Learn more](https://docs.github.com/en/actions/security-guides/encrypted-secrets)"
-      - label: "Set up scanners for dependencies, secrets, general vulnerabilities. [Learn more](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/about-dependabot-version-updates)"
-      - label: "Consider Dependabot version updates. [Learn more](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/about-dependabot-version-updates)"
-      - label: "Provide a SECURITY.md & enable Private Vulnerability Reporting. [Learn more](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository)"
-- type: markdown
-  attributes:
-    value: "## Advanced Options"
-- type: checkboxes
-  id: advanced-options
-  attributes:
-    label: "Advanced Options"
-    options:
-      - label: "Add Issue Templates. [Learn more](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)"
-      - label: "Configure GitHub Codespaces. [Learn more](https://docs.github.com/en/codespaces/setting-up-your-codespace/configuring-codespaces-for-your-project)"
-      - label: "Define Environments. [Learn more](https://docs.github.com/en/actions/deployment/about-environments)"
-- type: markdown
-  attributes:
-    value: "## Next Steps / Externalities"
-- type: checkboxes
-  id: next-steps
-  attributes:
-    label: "Next Steps / Externalities"
-    options:
-      - label: "Commit to being responsive. [Learn more](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/encouraging-helpful-contributions-to-your-project-with-labels)"
-      - label: "Use GitHub Projects and Issues for project management. [Learn more](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)"
-      - label: "Promote your project for visibility. [Learn more](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/displaying-a-sponsor-button-in-your-repository)"
-      - label: "Engage with your community. [Learn more](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/building-a-strong-community)"
+      - label: "Assign appropriate roles/permissions"
+        description: "[Learn more](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-permission-levels-for-an-organization)"
+      - label: "Manage secrets securely"
+        description: "[Learn more](https://docs.github.com/en/actions/security-guides/encrypted-secrets)"
+      - label: "Set up scanners for dependencies, secrets, general vulnerabilities"
+        description: "[Learn more](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/about-dependabot-version-updates)"
+      - label: "Consider Dependabot version updates"
+        description: "[Learn more](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/about-dependabot-version-updates)"
+      - label: "Provide a SECURITY.md & enable Private Vulnerability Reporting"
+        description: "[Learn more](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository)"
