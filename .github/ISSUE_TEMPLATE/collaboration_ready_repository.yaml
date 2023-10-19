@@ -30,7 +30,7 @@ body:
       and [CODE_OF_CONDUCT](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project)
     options:
       - label: "Create an informative README.md"
-      - label: "Add a LICENSE.md file"
+      - label: "Add a LICENSE file"
       - label: "Include CONTRIBUTING.md"
       - label: "Set up CODEOWNERS"
       - label: "Establish a CODE_OF_CONDUCT.md"
