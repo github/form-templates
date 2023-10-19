@@ -5,7 +5,7 @@ labels: []
 body:
 - type: markdown
   attributes:
-    value: "## Repository Settings"
+    value: "### Read more about [collaboration-ready repositories on the GitHub Blog](https://github.blog/2023-08-04-a-checklist-and-guide-to-get-your-repository-collaboration-ready/)!"
 - type: checkboxes
   id: repo-settings
   attributes:
@@ -17,9 +17,6 @@ body:
     options:
       - label: "Set appropriate repository visibility (public or private)"
       - label: "Configure branch protection rules"
-- type: markdown
-  attributes:
-    value: "## Repository Contents"
 - type: checkboxes
   id: repo-contents
   attributes:
@@ -42,9 +39,6 @@ body:
   attributes:
     label: "Which license did you choose? (Please specify)"
     placeholder: "Enter the license name here"
-- type: markdown
-  attributes:
-    value: "## Automation/Checks"
 - type: checkboxes
   id: automation-checks
   attributes:
@@ -59,9 +53,6 @@ body:
       - label: "Set up tests / Continuous Integration (CI)"
       - label: "Configure status checks"
       - label: "Consider Continuous Deployment (CD)"
-- type: markdown
-  attributes:
-    value: "## Security"
 - type: checkboxes
   id: security
   attributes:
