@@ -17,6 +17,11 @@ body:
     options:
       - label: "Set appropriate repository visibility (public or private)"
       - label: "Configure branch protection rules"
+  - type: input
+    id: notes-repo-settings
+    attributes:
+      label: "Notes:"
+      placeholder: "Enter any notes here. For example, any additional settings that were configured, or any issues encountered during configuration."
 - type: checkboxes
   id: repo-contents
   attributes:
@@ -34,6 +39,11 @@ body:
       - label: "Include CONTRIBUTING.md"
       - label: "Set up CODEOWNERS"
       - label: "Establish a CODE_OF_CONDUCT.md"
+- type: input
+  id: notes-repo-contents
+  attributes:
+    label: "Notes:"
+    placeholder: "Enter any notes here. For example, which files did you choose not to include (and why)?"
 - type: input
   id: license
   attributes:
@@ -53,6 +63,11 @@ body:
       - label: "Set up tests / Continuous Integration (CI)"
       - label: "Configure status checks"
       - label: "Consider Continuous Deployment (CD)"
+- type: input
+  id: notes-automation-checks
+  attributes:
+    label: "Notes:"
+    placeholder: "Enter any notes here. For example, any issues encountered during the implementation of automation or checks."
 - type: checkboxes
   id: security
   attributes:
@@ -69,6 +84,11 @@ body:
       - label: "Set up scanners for dependencies, secrets, general vulnerabilities"
       - label: "Consider Dependabot version updates"
       - label: "Provide a SECURITY.md & enable Private Vulnerability Reporting"
+  - type: input
+    id: notes-security
+    attributes:
+      label: "Notes:"
+      placeholder: "Enter any notes here. For example, any additional security measures implemented or any issues encountered during implementation."
 - type: checkboxes
   id: advanced-options
   attributes:
@@ -82,6 +102,11 @@ body:
       - label: "Add Issue Templates"
       - label: "Configure GitHub Codespaces"
       - label: "Define Environments"
+- type: input
+  id: notes-advanced-options
+  attributes:
+    label: "Notes:"
+    placeholder: "EEnter any notes here. For example, any additional options implemented or any issues encountered during implementation."
 - type: checkboxes
   id: next-steps
   attributes:
@@ -97,3 +122,8 @@ body:
       - label: "Use GitHub Projects and Issues for project management"
       - label: "Promote your project for visibility"
       - label: "Engage with your community"
+- type: input
+  id: notes-next-steps
+  attributes:
+    label: "Notes:"
+    placeholder: "Enter any notes here. For example, any additional steps taken or any issues encountered during implementation."
