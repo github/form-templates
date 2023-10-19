@@ -84,11 +84,11 @@ body:
       - label: "Set up scanners for dependencies, secrets, general vulnerabilities"
       - label: "Consider Dependabot version updates"
       - label: "Provide a SECURITY.md & enable Private Vulnerability Reporting"
-  - type: input
-    id: notes-security
-    attributes:
-      label: "Notes:"
-      placeholder: "Enter any notes here. For example, any additional security measures implemented or any issues encountered during implementation."
+- type: input
+  id: notes-security
+  attributes:
+    label: "Notes:"
+    placeholder: "Enter any notes here. For example, any additional security measures implemented or any issues encountered during implementation."
 - type: checkboxes
   id: advanced-options
   attributes:
@@ -106,7 +106,7 @@ body:
   id: notes-advanced-options
   attributes:
     label: "Notes:"
-    placeholder: "EEnter any notes here. For example, any additional options implemented or any issues encountered during implementation."
+    placeholder: "Enter any notes here. For example, any additional options implemented or any issues encountered during implementation."
 - type: checkboxes
   id: next-steps
   attributes:
