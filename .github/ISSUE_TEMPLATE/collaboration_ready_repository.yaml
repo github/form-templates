@@ -69,3 +69,31 @@ body:
       - label: "Set up scanners for dependencies, secrets, general vulnerabilities"
       - label: "Consider Dependabot version updates"
       - label: "Provide a SECURITY.md & enable Private Vulnerability Reporting"
+ type: checkboxes
+  id: advanced-options
+  attributes:
+    label: "Advanced Options"
+    description: |-
+      Additional options to consider for your repository.      
+      Learn more about [issue templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository),
+      [GitHub Codespaces](https://docs.github.com/en/codespaces/setting-up-your-codespace/configuring-codespaces-for-your-project),
+      and [environments](https://docs.github.com/en/actions/deployment/about-environments)
+    options:
+      - label: "Add Issue Templates"
+      - label: "Configure GitHub Codespaces"
+      - label: "Define Environments"
+- type: checkboxes
+  id: next-steps
+  attributes:
+    label: "Next Steps / Externalities"
+    description: |-
+      Additional steps to take to promote your repository and engage with your community.      
+      Learn more about [labels](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/encouraging-helpful-contributions-to-your-project-with-labels),
+      [GitHub Projects and Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues),
+      [repository promotion](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/displaying-a-sponsor-button-in-your-repository),
+      and [community building](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/building-a-strong-community)
+    options:
+      - label: "Commit to being responsive"
+      - label: "Use GitHub Projects and Issues for project management"
+      - label: "Promote your project for visibility"
+      - label: "Engage with your community"
