@@ -4,7 +4,7 @@ This repository contains useful form templates that can be copied and pasted int
 
 ## Current Templates
 
-- **[collaboration_ready_repository.yaml](https://github.com/github/form-templates/blob/main/.github/ISSUE_TEMPLATE/collaboration_ready_repository.yaml)** provides a checklist to ensure your repository is ready for collaboration.
+- **[collaboration_ready_repository.yaml](https://github.com/github/form-templates/blob/main/.github/ISSUE_TEMPLATE/collaboration_ready_repository.yaml)** provides a checklist to ensure your repository is ready for collaboration. Read more about [collaboration-ready repositories on the GitHub Blog](https://github.blog/2023-08-04-a-checklist-and-guide-to-get-your-repository-collaboration-ready/)!
 
 ## Usage
 
