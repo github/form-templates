@@ -5,15 +5,15 @@ labels: []
 body:
 - type: markdown
   attributes:
-    value: "Read more about [collaboration-ready repositories on the GitHub Blog](https://github.blog/2023-08-04-a-checklist-and-guide-to-get-your-repository-collaboration-ready/)!"
+    value: "Read more about [collaboration-ready repositories on the GitHub Blog](https://github.blog/2023-08-04-a-checklist-and-guide-to-get-your-repository-collaboration-ready/){:target=\"_blank\"}"
 - type: checkboxes
   id: repo-settings
   attributes:
     label: "Repository Settings"
     description: |-
       Ensure the repository settings are correctly configured.      
-      Learn more about [repository settings](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features)
-      and [branch protection rules](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches)
+      Learn more about [repository settings](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features){:target=\"_blank\"}
+      and [branch protection rules](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches){:target=\"_blank\"}
     options:
       - label: "Set appropriate repository visibility (public or private)"
       - label: "Configure branch protection rules"
@@ -28,11 +28,11 @@ body:
     label: "Repository Contents"
     description: |-
       Ensure the repository contains all the necessary files.      
-      Learn more about [READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes),
-      [LICENSE](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository),
-      [CONTRIBUTING](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors),
-      [CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners),
-      and [CODE_OF_CONDUCT](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project)
+      Learn more about [READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes){:target=\"_blank\"},
+      [LICENSE](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository){:target=\"_blank\"},
+      [CONTRIBUTING](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors){:target=\"_blank\"},
+      [CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners){:target=\"_blank\"},
+      and [CODE_OF_CONDUCT](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project){:target=\"_blank\"}
     options:
       - label: "Create an informative README.md"
       - label: "Add a LICENSE file"
@@ -55,9 +55,9 @@ body:
     label: "Automation/Checks"
     description: |-
       Ensure the repository has the necessary automation and checks in place.      
-      Learn more about [code linting](https://github.blog/2020-06-18-introducing-github-super-linter-one-linter-to-rule-them-all/),
-      [CI](https://docs.github.com/en/actions/guides/about-continuous-integration),
-      and [status checks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks)
+      Learn more about [code linting](https://github.blog/2020-06-18-introducing-github-super-linter-one-linter-to-rule-them-all/){:target=\"_blank\"},
+      [CI](https://docs.github.com/en/actions/guides/about-continuous-integration){:target=\"_blank\"},
+      and [status checks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks){:target=\"_blank\"}
     options:
       - label: "Implement code linting"
       - label: "Set up tests / Continuous Integration (CI)"
@@ -74,10 +74,10 @@ body:
     label: "Security"
     description: |-
       Ensure the repository has the necessary security measures in place.      
-      Learn more about [roles/permissions](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-permission-levels-for-an-organization),
-      [managing secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets),
-      [dependency scanning](https://docs.github.com/en/code-security/dependabot),
-      and [security policies](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository)
+      Learn more about [roles/permissions](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-permission-levels-for-an-organization){:target=\"_blank\"},
+      [managing secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets){:target=\"_blank\"},
+      [dependency scanning](https://docs.github.com/en/code-security/dependabot){:target=\"_blank\"},
+      and [security policies](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository){:target=\"_blank\"}
     options:
       - label: "Assign appropriate roles/permissions"
       - label: "Manage secrets securely"
@@ -95,9 +95,9 @@ body:
     label: "Advanced Options"
     description: |-
       Additional options to consider for your repository.      
-      Learn more about [issue templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository),
-      [GitHub Codespaces](https://docs.github.com/en/codespaces/setting-up-your-codespace/configuring-codespaces-for-your-project),
-      and [environments](https://docs.github.com/en/actions/deployment/about-environments)
+      Learn more about [issue templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository){:target=\"_blank\"},
+      [GitHub Codespaces](https://docs.github.com/en/codespaces/setting-up-your-codespace/configuring-codespaces-for-your-project){:target=\"_blank\"},
+      and [environments](https://docs.github.com/en/actions/deployment/about-environments){:target=\"_blank\"}
     options:
       - label: "Add Issue Templates"
       - label: "Configure GitHub Codespaces"
@@ -113,10 +113,10 @@ body:
     label: "Next Steps / Externalities"
     description: |-
       Additional steps to take to promote your repository and engage with your community.      
-      Learn more about [labels](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/encouraging-helpful-contributions-to-your-project-with-labels),
-      [GitHub Projects and Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues),
-      [repository promotion](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/displaying-a-sponsor-button-in-your-repository),
-      and [community building](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/building-a-strong-community)
+      Learn more about [labels](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/encouraging-helpful-contributions-to-your-project-with-labels){:target=\"_blank\"},
+      [GitHub Projects and Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues){:target=\"_blank\"},
+      [repository promotion](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/displaying-a-sponsor-button-in-your-repository){:target=\"_blank\"},
+      and [community building](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/building-a-strong-community){:target=\"_blank\"}
     options:
       - label: "Commit to being responsive"
       - label: "Use GitHub Projects and Issues for project management"
