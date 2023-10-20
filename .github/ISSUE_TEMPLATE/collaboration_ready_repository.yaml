@@ -39,16 +39,16 @@ body:
       - label: "Include CONTRIBUTING.md"
       - label: "Set up CODEOWNERS"
       - label: "Establish a CODE_OF_CONDUCT.md"
-- type: textarea
-  id: notes-repo-contents
-  attributes:
-    label: "Notes:"
-    placeholder: "Enter any notes here. For example, which files did you choose not to include (and why)?"
 - type: input
   id: license
   attributes:
     label: "Which license did you choose? (Please specify)"
     placeholder: "Enter the license name here"
+- type: textarea
+  id: notes-repo-contents
+  attributes:
+    label: "Repository Contents - Notes:"
+    placeholder: "Enter any notes here. For example, which files did you choose not to include (and why)?"
 - type: checkboxes
   id: automation-checks
   attributes:
@@ -66,7 +66,7 @@ body:
 - type: textarea
   id: notes-automation-checks
   attributes:
-    label: "Notes:"
+    label: "Automation/Checks - Notes:"
     placeholder: "Enter any notes here. For example, any issues encountered during the implementation of automation or checks."
 - type: checkboxes
   id: security
@@ -87,7 +87,7 @@ body:
 - type: textarea
   id: notes-security
   attributes:
-    label: "Notes:"
+    label: "Security - Notes:"
     placeholder: "Enter any notes here. For example, any additional security measures implemented or any issues encountered during implementation."
 - type: checkboxes
   id: advanced-options
@@ -105,7 +105,7 @@ body:
 - type: textarea
   id: notes-advanced-options
   attributes:
-    label: "Notes:"
+    label: "Advanced Options - Notes:"
     placeholder: "Enter any notes here. For example, any additional options implemented or any issues encountered during implementation."
 - type: checkboxes
   id: next-steps
@@ -125,5 +125,5 @@ body:
 - type: textarea
   id: notes-next-steps
   attributes:
-    label: "Notes:"
+    label: "Additional Notes:"
     placeholder: "Enter any notes here. For example, any additional steps taken or any issues encountered during implementation."
