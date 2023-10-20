@@ -17,7 +17,7 @@ body:
     options:
       - label: "Set appropriate repository visibility (public or private)"
       - label: "Configure branch protection rules"
-- type: input
+- type: textarea
   id: notes-repo-settings
   attributes:
     label: "Notes:"
@@ -39,7 +39,7 @@ body:
       - label: "Include CONTRIBUTING.md"
       - label: "Set up CODEOWNERS"
       - label: "Establish a CODE_OF_CONDUCT.md"
-- type: input
+- type: textarea
   id: notes-repo-contents
   attributes:
     label: "Notes:"
@@ -63,7 +63,7 @@ body:
       - label: "Set up tests / Continuous Integration (CI)"
       - label: "Configure status checks"
       - label: "Consider Continuous Deployment (CD)"
-- type: input
+- type: textarea
   id: notes-automation-checks
   attributes:
     label: "Notes:"
@@ -84,7 +84,7 @@ body:
       - label: "Set up scanners for dependencies, secrets, general vulnerabilities"
       - label: "Consider Dependabot version updates"
       - label: "Provide a SECURITY.md & enable Private Vulnerability Reporting"
-- type: input
+- type: textarea
   id: notes-security
   attributes:
     label: "Notes:"
@@ -102,7 +102,7 @@ body:
       - label: "Add Issue Templates"
       - label: "Configure GitHub Codespaces"
       - label: "Define Environments"
-- type: input
+- type: textarea
   id: notes-advanced-options
   attributes:
     label: "Notes:"
@@ -122,7 +122,7 @@ body:
       - label: "Use GitHub Projects and Issues for project management"
       - label: "Promote your project for visibility"
       - label: "Engage with your community"
-- type: input
+- type: textarea
   id: notes-next-steps
   attributes:
     label: "Notes:"
