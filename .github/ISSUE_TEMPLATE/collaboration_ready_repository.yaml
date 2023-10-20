@@ -17,11 +17,6 @@ body:
     options:
       - label: "Set appropriate repository visibility (public or private)"
       - label: "Configure branch protection rules"
-- type: textarea
-  id: notes-repo-settings
-  attributes:
-    label: "Repository Settings - Notes:"
-    placeholder: "Enter any notes here. For example, any additional settings that were configured, or any issues encountered during configuration."
 - type: checkboxes
   id: repo-contents
   attributes:
@@ -44,11 +39,6 @@ body:
   attributes:
     label: "Which license did you choose? (Please specify)"
     placeholder: "Enter the license name"
-- type: textarea
-  id: notes-repo-contents
-  attributes:
-    label: "Repository Contents - Notes:"
-    placeholder: "Enter any notes here. For example, which files did you choose not to include (and why)?"
 - type: checkboxes
   id: automation-checks
   attributes:
@@ -63,11 +53,6 @@ body:
       - label: "Set up tests / Continuous Integration (CI)"
       - label: "Configure status checks"
       - label: "Consider Continuous Deployment (CD)"
-- type: textarea
-  id: notes-automation-checks
-  attributes:
-    label: "Automation/Checks - Notes:"
-    placeholder: "Enter any notes here. For example, any issues encountered during the implementation of automation or checks."
 - type: checkboxes
   id: security
   attributes:
@@ -84,11 +69,6 @@ body:
       - label: "Set up scanners for dependencies, secrets, general vulnerabilities"
       - label: "Consider Dependabot version updates"
       - label: "Provide a SECURITY.md & enable Private Vulnerability Reporting"
-- type: textarea
-  id: notes-security
-  attributes:
-    label: "Security - Notes:"
-    placeholder: "Enter any notes here. For example, any additional security measures implemented or any issues encountered during implementation."
 - type: checkboxes
   id: advanced-options
   attributes:
@@ -102,11 +82,6 @@ body:
       - label: "Add Issue Templates"
       - label: "Configure GitHub Codespaces"
       - label: "Define Environments"
-- type: textarea
-  id: notes-advanced-options
-  attributes:
-    label: "Advanced Options - Notes:"
-    placeholder: "Enter any notes here. For example, any additional options implemented or any issues encountered during implementation."
 - type: checkboxes
   id: next-steps
   attributes:
@@ -123,7 +98,13 @@ body:
       - label: "Promote your project for visibility"
       - label: "Engage with your community"
 - type: textarea
-  id: notes-next-steps
+  id: notes
   attributes:
-    label: "Additional Notes:"
-    placeholder: "Enter any notes here. For example, any additional steps taken or any issues encountered during implementation."
+    label: "Notes:"
+    placeholder: |-
+      "Enter any notes here. For example:
+      - additional repository settings that were configured, or any issues encountered during configuration.
+      - which files did you choose not to include (and why)?
+      - issues encountered during the implementation of automation or checks.
+      - additional security measures or implemented or any issues encountered during implementation.
+      - any other options configured, or steps takem"
