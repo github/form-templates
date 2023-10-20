@@ -102,9 +102,8 @@ body:
   attributes:
     label: "Notes:"
     placeholder: |-
-      "Enter any notes here. For example:
       - additional repository settings that were configured, or any issues encountered during configuration.
       - which files did you choose not to include (and why)?
       - issues encountered during the implementation of automation or checks.
       - additional security measures or implemented or any issues encountered during implementation.
-      - any other options configured, or steps takem"
+      - any other options configured, or steps taken, that are not listed above.
