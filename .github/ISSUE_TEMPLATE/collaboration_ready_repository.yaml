@@ -20,7 +20,7 @@ body:
 - type: textarea
   id: notes-repo-settings
   attributes:
-    label: "Notes:"
+    label: "Repository Settings - Notes:"
     placeholder: "Enter any notes here. For example, any additional settings that were configured, or any issues encountered during configuration."
 - type: checkboxes
   id: repo-contents
