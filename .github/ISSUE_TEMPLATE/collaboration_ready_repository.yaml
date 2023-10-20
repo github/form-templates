@@ -5,7 +5,7 @@ labels: []
 body:
 - type: markdown
   attributes:
-    value: "Read more about <a href="https://github.blog/2023-08-04-a-checklist-and-guide-to-get-your-repository-collaboration-ready/" target="_blank">collaboration-ready repositories on the GitHub Blog</a>"
+    value: "Read more about <a href='https://github.blog/2023-08-04-a-checklist-and-guide-to-get-your-repository-collaboration-ready/' target='_blank'>collaboration-ready repositories on the GitHub Blog</a>"
 - type: checkboxes
   id: repo-settings
   attributes:
