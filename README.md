@@ -1,4 +1,4 @@
-# GitHub Form Templates
+## GitHub Form Templates
 
 This repository contains useful form templates that can be copied and pasted into an existing repository, or the entire repository can be used as a template for a new one.
 
@@ -29,4 +29,8 @@ Contributions are welcome! If you have a form template that you think would be u
 
 ## License
 
-These templates are released under the MIT License. See `LICENSE` for more details.
+These templates are released under the MIT License. See [LICENSE](./LICENSE) for more details.
+
+## Maintainers 
+
+Please refer to [CODEOWNERS](./CODEOWNERS)
