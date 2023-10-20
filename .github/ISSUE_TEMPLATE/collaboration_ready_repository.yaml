@@ -43,7 +43,7 @@ body:
   id: license
   attributes:
     label: "Which license did you choose? (Please specify)"
-    placeholder: "Enter the license name here"
+    placeholder: "Enter the license name"
 - type: textarea
   id: notes-repo-contents
   attributes:
